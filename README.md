@@ -1,5 +1,9 @@
 # CloudstarxFrontend
 
+This is the frontend of my spring playground application 'Cloud Star X'.
+
+Author: Patrick Cemper, 2018
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.1.
 
 ## Development server
