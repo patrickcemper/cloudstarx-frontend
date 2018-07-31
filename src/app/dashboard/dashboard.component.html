@@ -1,0 +1,29 @@
+<h2>All Places</h2>
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Name</th>
+    <th>Rating</th>
+    <th>Description</th>
+  </tr>
+  <tr *ngFor="let place of places">
+    <td>{{place.id}}</td>
+    <td><a routerLink="/place/{{place.id}}">{{place.name}}</a></td>
+    <td>{{place.rating}}</td>
+    <td>{{place.description}}</td>
+  </tr>
+</table>
+
+<h2>All Routes</h2>
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Name</th>
+    <th>Description</th>
+  </tr>
+  <tr *ngFor="let route of routes">
+    <td>{{route.id}}</td>
+    <td><a routerLink="/route/{{route.id}}">{{route.name}}</a></td>
+    <td>{{route.description}}</td>
+  </tr>
+</table>

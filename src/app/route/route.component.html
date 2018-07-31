@@ -1,0 +1,20 @@
+<h2>Route '{{route.name}}' (id {{route.id}})</h2>
+
+<p><b>Description:</b> {{route.description}}</p>
+
+<br/>
+<br/>
+<br/>
+<h4>Points:</h4>
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Coord X</th>
+    <th>Coord Y</th>
+  </tr>
+  <tr *ngFor="let point of route.points">
+    <td>{{point.id}}</td>
+    <td>{{point.coordX}}</td>
+    <td>{{point.coordY}}</td>
+  </tr>
+</table>
